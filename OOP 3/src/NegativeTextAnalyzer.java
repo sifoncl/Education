@@ -12,5 +12,4 @@ public class NegativeTextAnalyzer extends KeywordAnalyzer {
     public Label getLabel() {
         return label;
     }
-
 }
