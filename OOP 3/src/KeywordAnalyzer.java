@@ -1,8 +1,13 @@
+import java.util.Arrays;
+
 public abstract class KeywordAnalyzer implements TextAnalyzer {
+    protected abstract String[] getKeywords();
+    protected abstract Label getLabel();
 
-    public abstract String[] getKeywords();
-
-    public abstract Label getLabel();
-
-    public abstract Label processText(String string);
+    public Label processText(String text) {
+        Label result = getLabel();
+        if (!Arrays.stream(getKeywords()).anyMatch(k -> text.contains(k)))
+            result = null;
+        return result;
+    }
 }

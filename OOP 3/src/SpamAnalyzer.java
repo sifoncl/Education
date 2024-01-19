@@ -17,16 +17,5 @@ public class SpamAnalyzer extends KeywordAnalyzer {
     public Label getLabel() {
         return label;
     }
-
-    public Label processText(String text) {
-        for (String negativMarker : this.spamMarker) {
-            if (text.contains(negativMarker)) {
-                return label;
-            }
-        }
-        return null;
-    }
-
-
 }
 

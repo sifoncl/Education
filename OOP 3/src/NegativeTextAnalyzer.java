@@ -13,15 +13,4 @@ public class NegativeTextAnalyzer extends KeywordAnalyzer {
         return label;
     }
 
-    @Override
-    public Label processText(String text) {
-        for (String negativMarker : negativMarker) {
-            if (text.contains(negativMarker)) {
-                return label;
-            }
-        }
-        return null;
-    }
-
-
 }
