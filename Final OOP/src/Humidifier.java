@@ -1,8 +1,6 @@
-public class Humidifier extends ClimateController {
-
-
+public class Humidifier implements ClimateControl {
+    @Override
     public void execute(int value, House house) {
-
-        house.setHumidity(house.getHumidity() + value);
+        house.humidity = house.humidity + value;
     }
 }

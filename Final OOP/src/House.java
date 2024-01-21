@@ -1,18 +1,10 @@
 public class House {
 
-    private int humidity;
-    private double temperature;
+    double temperature;
+    int humidity;
 
-    public House(int humidity, double temperature) {
-        this.humidity = humidity;
+    public House(double temperature, int humidity) {
         this.temperature = temperature;
-    }
-
-    public int getHumidity() {
-        return humidity;
-    }
-
-    public void setHumidity(int humidity) {
         this.humidity = humidity;
     }
 
@@ -24,8 +16,20 @@ public class House {
         this.temperature = temperature;
     }
 
-    public void printHouseStatus() {
-        System.out.println("Темппература: " + this.temperature + "°C");
-        System.out.println("Влажность: " + this.humidity + "%");
+    public int getHumidity() {
+        return humidity;
     }
+
+    public void setHumidity(int humidity) {
+        this.humidity = humidity;
+    }
+
+    public void printStatus() {
+        System.out.println(
+                "Температура: " + this.temperature + "\n" +
+                        "Влажность: " + this.humidity
+        );
+
+    }
+
 }

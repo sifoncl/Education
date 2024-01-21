@@ -1,14 +1,26 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        House home = new House(40, 19.0F);
-        home.printHouseStatus();
 
-        Heater heater = new Heater();
-        Humidifier humidifier = new Humidifier();
+        Scanner sc = new Scanner(System.in);
 
-        heater.execute(5, home);
-        humidifier.execute(20, home);
+        House home = new House(20.0, 45);
+        home.printStatus();
 
-        home.printHouseStatus();
+        String type = sc.next();
+
+        HouseManager.configManager(type);
+
+
+        HouseManager.climatecomntroller.execute(20, home);
+        home.printStatus();
+        type = sc.next();
+
+        HouseManager.configManager(type);
+
+        HouseManager.climatecomntroller.execute(15, home);
+        home.printStatus();
+
     }
 }
