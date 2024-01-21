@@ -1,7 +1,7 @@
 
 public class HumidityManager extends ClimateManager {
     @Override
-    public ClimateControl createClimateController() {
+    public ClimateController createClimateController() {
         return new Humidifier();
     }
 }

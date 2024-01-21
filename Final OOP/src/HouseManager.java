@@ -1,6 +1,6 @@
 public class HouseManager {
 
-    public static ClimateControl climatecomntroller;
+    public static ClimateController climatecomntroller;
 
     public static void configManager(String type) {
 

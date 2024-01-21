@@ -1,6 +1,6 @@
-public class Heater extends ClimateController {
+public class Heater implements ClimateController {
     @Override
-    void execute(int value, House house) {
+    public void execute(int value, House house) {
         house.setTemperature(house.getTemperature() + value);
     }
 }
