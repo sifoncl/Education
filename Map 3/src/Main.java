@@ -15,9 +15,7 @@ public class Main {
         for (int i = 0; i < chars.length; i++) {
             if (charsCount.containsKey(chars[i])) {
                 charsCount.put(chars[i], charsCount.get(chars[i]) + 1);
-
             } else charsCount.put(chars[i], 1);
-
         }
         return charsCount;
     }
