@@ -14,15 +14,18 @@ public class Main {
 
         int arabic = 0;
 
-        for (int i = 0; i <= romanChars.length - 1; i++) {
-            if (i == romanChars.length - 1) {
+        System.out.println(arabic);
+        System.out.println(romanChars.length);
+        for (int i = 0; i <= romanChars.length-1; i++) {
+            if (i==romanChars.length-1){
                 arabic = arabic + roamanDigits.get(romanChars[i]);
-            } else if (roamanDigits.get(romanChars[i]) >= roamanDigits.get(romanChars[i + 1])) {
+            }else if (roamanDigits.get(romanChars[i]) >= roamanDigits.get(romanChars[i + 1])) {
                 arabic = arabic + roamanDigits.get(romanChars[i]);
             } else if (roamanDigits.get(romanChars[i]) < roamanDigits.get(romanChars[i + 1])) {
                 arabic = arabic - roamanDigits.get(romanChars[i]);
 
             }
+            System.out.println(arabic + " " + i);
         }
         System.out.println(arabic);
 
