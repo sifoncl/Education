@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Collection 1/Collection 1.iml" filepath="$PROJECT_DIR$/Collection 1/Collection 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collection 2/Collection 2.iml" filepath="$PROJECT_DIR$/Collection 2/Collection 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection Final/Collection Final.iml" filepath="$PROJECT_DIR$/Collection Final/Collection Final.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Education.iml" filepath="$PROJECT_DIR$/.idea/Education.iml" />
       <module fileurl="file://$PROJECT_DIR$/Final OOP/Final OOP.iml" filepath="$PROJECT_DIR$/Final OOP/Final OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Map 1/Map 1.iml" filepath="$PROJECT_DIR$/Map 1/Map 1.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Memory test/Memory test.iml" filepath="$PROJECT_DIR$/Memory test/Memory test.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP 3/OOP 3.iml" filepath="$PROJECT_DIR$/OOP 3/OOP 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" filepath="$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" filepath="$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task Enum 2/Task Enum 2.iml" filepath="$PROJECT_DIR$/Task Enum 2/Task Enum 2.iml" />
     </modules>
   </component>
