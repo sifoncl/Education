@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bezdelia/Bezdelia.iml" filepath="$PROJECT_DIR$/Bezdelia/Bezdelia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collection 1/Collection 1.iml" filepath="$PROJECT_DIR$/Collection 1/Collection 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collection 2/Collection 2.iml" filepath="$PROJECT_DIR$/Collection 2/Collection 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collection Final/Collection Final.iml" filepath="$PROJECT_DIR$/Collection Final/Collection Final.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" filepath="$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" filepath="$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task Enum 2/Task Enum 2.iml" filepath="$PROJECT_DIR$/Task Enum 2/Task Enum 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bezdelia/e calculator/e calculator.iml" filepath="$PROJECT_DIR$/Bezdelia/e calculator/e calculator.iml" />
     </modules>
   </component>
 </project>

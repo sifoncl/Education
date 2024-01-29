@@ -31,29 +31,32 @@ public class Manager {
         System.out.println("Сумма по чеку: " + countSum(cart));
     }
 
-    public static void printCart(Cart cart, String sortType) {
+    public static void printCart(Cart cart, SortOptions sortOptions) {
 
 
         List<Map.Entry<Product, Integer>> sortedCart = new LinkedList<>(cart.getCart().entrySet());
 
-        switch (sortType) {
-            case "по имени":
+        switch (sortOptions.getSortField()) {
+
+
+            case BY_NAME:
                 sortedCart.sort(new NameComparator());
                 break;
-            case "по цене":
+            case BY_PRICE:
                 sortedCart.sort(new PriceComparator());
                 break;
-            case "по имени и цене":
+            case BY_NAME_AND_PRICE:
                 sortedCart.sort(new NameComparator().thenComparing(new PriceComparator()));
-
+        }
+        if (sortOptions.getSortOrder() == SortOptions.SortOrder.DESC) {
+            sortedCart = sortedCart.reversed();
         }
 
         for (Map.Entry<Product, Integer> entry : sortedCart) {
-            System.out.println("Наименование товара: " + entry.getKey().getName() + ", Количество: " + entry.getValue());
+            System.out.println("Наименование товара: " + entry.getKey().getName() + ", цена за штуку: " +
+                    entry.getKey().getPrice() + ", Количество: " + entry.getValue());
 
         }
         System.out.println("Сумма по чеку: " + countSum(cart));
-
-
     }
 }
