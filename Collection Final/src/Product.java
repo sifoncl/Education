@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Product {
 
     private String name;
@@ -7,6 +9,18 @@ public class Product {
     public String toString() {
         return "Название: " + name +
                 ", цена: " + price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Product product)) return false;
+        return price == product.price && Objects.equals(name, product.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, price);
     }
 
     public String getName() {
