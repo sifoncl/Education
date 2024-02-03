@@ -1,3 +1,5 @@
+package Exeption
+
 import static java.lang.Integer.parseInt;
 
 public class Division {
