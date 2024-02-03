@@ -1,12 +1,18 @@
 public class Main {
     public static void main(String[] args) {
         try {
-            devider(1, 0);
-        } catch (RuntimeException e) {
-            System.out.println("Нельязя делить на 0");;
+        int ansver = devider(1, 0);
+            System.out.println(ansver);
+        } catch (ArithmeticException e) {
+            System.out.println("Нельязя делить на 0");
         }
     }
-    public static void devider(int a, int b) {
-        System.out.println(a / b);
+
+    public static int devider(int a, int b) throws ArithmeticException {
+        return a / b;
     }
+
 }
+
+
+
