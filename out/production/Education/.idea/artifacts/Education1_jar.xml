@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Education1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Education1_jar</output-path>
+    <root id="archive" name="Education1.jar">
+      <element id="module-output" name="Map 4" />
+      <element id="module-output" name="Map 5" />
+      <element id="module-output" name="Map2" />
+      <element id="module-output" name="Bezdelia" />
+      <element id="module-output" name="Memory test" />
+      <element id="module-output" name="Collection 1" />
+      <element id="module-output" name="OOP 3" />
+      <element id="module-output" name="Sin teilior" />
+      <element id="module-output" name="Collection 2" />
+      <element id="module-output" name="Collection Final" />
+      <element id="module-output" name="Sortirovka 1" />
+      <element id="module-output" name="Sortirovka 2" />
+      <element id="module-output" name="Final OOP" />
+      <element id="module-output" name="Task Enum 2" />
+      <element id="module-output" name="Map 1" />
+      <element id="module-output" name="e calculator" />
+      <element id="module-output" name="Education" />
+      <element id="module-output" name="Map 3" />
+      <element id="module-output" name="Exeption 1" />
+      <element id="module-output" name="Exeption 2" />
+      <element id="module-output" name="Exeption 3" />
+      <element id="module-output" name="a b Swap XOR" />
+      <element id="module-output" name="untitled" />
+      <element id="module-output" name="Exeption 4" />
+      <element id="module-output" name="Exeption 5" />
+    </root>
+  </artifact>
+</component>
