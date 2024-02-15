@@ -1,7 +1,6 @@
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class PhoneBookImpl implements PhoneBook, Serializable {
 
@@ -16,10 +15,8 @@ public class PhoneBookImpl implements PhoneBook, Serializable {
     public static void printPhoneBook(PhoneBookImpl phoneBook) {
         for (User u : phoneBook.Users) {
             System.out.println(u);
-
         }
     }
-
 
     @Override
     public int getNumberByName(String name) throws PhoneBookExeptions {
@@ -69,7 +66,6 @@ public class PhoneBookImpl implements PhoneBook, Serializable {
             System.out.println("Файл Содержит не те классы");
             throw new RuntimeException(e);
         }
-
     }
 
     @Override
@@ -79,7 +75,6 @@ public class PhoneBookImpl implements PhoneBook, Serializable {
             for (User u : Users) {
                 bufPhoneBookFileWriter.write(u.toString() + "\n");
             }
-
         } catch (FileNotFoundException e) {
             System.out.println("Не удалось произвети запись в файл: " + phoneBookFile.getAbsolutePath() + " Возможно файл только для чтения.");
         } catch (IOException e) {
@@ -95,10 +90,7 @@ public class PhoneBookImpl implements PhoneBook, Serializable {
             String userStr = bufPhoneBookFileReader.readLine();
             while (userStr != null) {
                 userStr = userStr.replaceAll(" ", "");
-
                 if (userStr.matches("\\b.+\\b,+[0-9]+,[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
-                    System.out.println(userStr);
-                    System.out.println(userStr);
                     String[] userParams = userStr.split(",");
                     String[] dateParams = userParams[2].split("-");
                     LocalDate userDate = LocalDate.of(Integer.parseInt(dateParams[0]), Integer.parseInt(dateParams[1]), Integer.parseInt(dateParams[2]));
