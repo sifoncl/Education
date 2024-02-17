@@ -11,5 +11,11 @@ public class Main {
         for (Thread g : generators) {
             g.start();
         }
+        while (true) {
+            if ((!generators[0].isAlive()) && (!generators[1].isAlive()) && (!generators[2].isAlive()) && (!generators[3].isAlive()) && (!generators[4].isAlive())) {
+                System.out.println(integerList.size());
+                break;
+            }
+        }
     }
 }

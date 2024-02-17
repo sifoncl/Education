@@ -9,7 +9,7 @@ public class Generator extends Thread {
         this.integerList = integerList;
     }
 
-    public void run() {
+    public synchronized void run() {
         Random rnd = new Random();
         while (this.integerList.size() < 100) {
             this.integerList.add(rnd.nextInt(0, 100));
@@ -18,7 +18,7 @@ public class Generator extends Thread {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println(Thread.currentThread().getName() + " Добавил");
+            System.out.println(Thread.currentThread().getName() + " Добавил "+ integerList.size() );
         }
     }
 
