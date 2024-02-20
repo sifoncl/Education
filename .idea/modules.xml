@@ -25,6 +25,11 @@
       <module fileurl="file://$PROJECT_DIR$/Final OOP/Final OOP.iml" filepath="$PROJECT_DIR$/Final OOP/Final OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics 1/Generics 1.iml" filepath="$PROJECT_DIR$/Generics 1/Generics 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics 2/Generics 2.iml" filepath="$PROJECT_DIR$/Generics 2/Generics 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSON 1/JSON 1.iml" filepath="$PROJECT_DIR$/JSON 1/JSON 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSON 2/JSON 2.iml" filepath="$PROJECT_DIR$/JSON 2/JSON 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lamda 1/Lamda 1.iml" filepath="$PROJECT_DIR$/Lamda 1/Lamda 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lamda 2/Lamda 2.iml" filepath="$PROJECT_DIR$/Lamda 2/Lamda 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lamda 3/Lamda 3.iml" filepath="$PROJECT_DIR$/Lamda 3/Lamda 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Map 1/Map 1.iml" filepath="$PROJECT_DIR$/Map 1/Map 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Map 3/Map 3.iml" filepath="$PROJECT_DIR$/Map 3/Map 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Map 4/Map 4.iml" filepath="$PROJECT_DIR$/Map 4/Map 4.iml" />
@@ -38,6 +43,13 @@
       <module fileurl="file://$PROJECT_DIR$/Bezdelia/Sin teilior/Sin teilior.iml" filepath="$PROJECT_DIR$/Bezdelia/Sin teilior/Sin teilior.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" filepath="$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" filepath="$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream 1/Stream 1.iml" filepath="$PROJECT_DIR$/Stream 1/Stream 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream 2/Stream 2.iml" filepath="$PROJECT_DIR$/Stream 2/Stream 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream 3/Stream 3.iml" filepath="$PROJECT_DIR$/Stream 3/Stream 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream 4/Stream 4.iml" filepath="$PROJECT_DIR$/Stream 4/Stream 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream 5/Stream 5.iml" filepath="$PROJECT_DIR$/Stream 5/Stream 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream 6/Stream 6.iml" filepath="$PROJECT_DIR$/Stream 6/Stream 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream Final/Stream Final.iml" filepath="$PROJECT_DIR$/Stream Final/Stream Final.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread Final/Thread Final.iml" filepath="$PROJECT_DIR$/Thread Final/Thread Final.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread and Runnable 1/Thread and Runnable 1.iml" filepath="$PROJECT_DIR$/Thread and Runnable 1/Thread and Runnable 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread and Runnable 2/Thread and Runnable 2.iml" filepath="$PROJECT_DIR$/Thread and Runnable 2/Thread and Runnable 2.iml" />
@@ -47,6 +59,7 @@
       <module fileurl="file://$PROJECT_DIR$/Thread and Runnable 5--/Thread and Runnable 5--.iml" filepath="$PROJECT_DIR$/Thread and Runnable 5--/Thread and Runnable 5--.iml" />
       <module fileurl="file://$PROJECT_DIR$/Time 1/Time 1.iml" filepath="$PROJECT_DIR$/Time 1/Time 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Time 2/Time 2.iml" filepath="$PROJECT_DIR$/Time 2/Time 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML 1/XML 1.iml" filepath="$PROJECT_DIR$/XML 1/XML 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bezdelia/a b Swap XOR/a b Swap XOR.iml" filepath="$PROJECT_DIR$/Bezdelia/a b Swap XOR/a b Swap XOR.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bezdelia/e calculator/e calculator.iml" filepath="$PROJECT_DIR$/Bezdelia/e calculator/e calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled1/untitled1.iml" />
