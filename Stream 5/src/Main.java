@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -12,18 +10,20 @@ public class Main {
         int maxNameLenghts = 2;
         int minNameLenghts = 10;
 
-        ArrayList firstFour = null;
+        ArrayList<String> firstFour = new ArrayList<>();
 
-        Stream.generate(() -> Person.getRndPerson(ageMax,ageMin,maxNameLenghts,minNameLenghts))
-                .filter(x->x.getAge()<21)
-                .peek(x->System.out.println(x))
+
+        List<Person> persons = Stream.generate(() -> Person.getRndPerson(ageMax, ageMin, maxNameLenghts, minNameLenghts))
+                .limit(100)
+                .filter(x -> x.getAge() < 21)
+                .peek(x -> System.out.println(x))
                 .sorted(Comparator.comparingInt(Person::getAge).thenComparing(Person::getName))
-                        .peek(x->firstFour.add(x))
+                .limit(4)
+                .peek(x -> firstFour.add(x.getSurname())).toList();
 
 
-        System.out.println("Hello world!");
-
-
+        System.out.println(persons);
+        System.out.println(firstFour);
 
     }
 
