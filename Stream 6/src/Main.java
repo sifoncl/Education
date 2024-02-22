@@ -11,8 +11,5 @@ public class Main {
         int first = Arrays.stream(nums).filter(x -> x >= 24).findFirst().getAsInt();
 
         System.out.println(first);
-
     }
-
-
 }
