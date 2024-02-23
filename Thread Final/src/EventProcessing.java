@@ -2,7 +2,6 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Map;
 
-import static java.lang.Thread.sleep;
 
 public class EventProcessing implements Runnable {
 

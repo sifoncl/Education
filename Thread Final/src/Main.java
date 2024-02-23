@@ -23,11 +23,11 @@ public class Main {
 
 
         ExecutorService pool = Executors.newFixedThreadPool(4);
-
         pool.submit(new EventProcessing(myEvents, EventProcessing.EventProcessingMode.COUNTER));
         pool.submit(new EventProcessing(myEvents, EventProcessing.EventProcessingMode.START_NOTIFICATION));
         pool.submit(new EventProcessing(myEvents, EventProcessing.EventProcessingMode.EVENT_IS_HAPPENING));
-        pool.submit(new NotificationPrinter());
 
+        pool.submit(new NotificationPrinter());
+        
     }
 }

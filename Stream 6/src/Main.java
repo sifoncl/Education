@@ -5,11 +5,12 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
 
+        int n = 224;
 
-        int[] nums = {1, 2, 3, 10, 12, 14, 19, 24, 25, 223233};
+        Integer b = Stream.iterate(2, i -> i <= n, i -> i + 2)
+                .filter(i -> i > 10).findFirst().orElse(null);
 
-        int first = Arrays.stream(nums).filter(x -> x >= 24).findFirst().getAsInt();
+        System.out.println(b);
 
-        System.out.println(first);
     }
 }
