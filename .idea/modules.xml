@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotation 1/Annotation 1.iml" filepath="$PROJECT_DIR$/Annotation 1/Annotation 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Annotation 2/Annotation 2.iml" filepath="$PROJECT_DIR$/Annotation 2/Annotation 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Annotation 3/Annotation 3.iml" filepath="$PROJECT_DIR$/Annotation 3/Annotation 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bezdelia/Bezdelia.iml" filepath="$PROJECT_DIR$/Bezdelia/Bezdelia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Builder 1/Builder 1.iml" filepath="$PROJECT_DIR$/Builder 1/Builder 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Builder 2/Builder 2.iml" filepath="$PROJECT_DIR$/Builder 2/Builder 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Callable 1/Callable 1.iml" filepath="$PROJECT_DIR$/Callable 1/Callable 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Callable 2/Callable 2.iml" filepath="$PROJECT_DIR$/Callable 2/Callable 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Callable 3/Callable 3.iml" filepath="$PROJECT_DIR$/Callable 3/Callable 3.iml" />
@@ -40,7 +45,11 @@
       <module fileurl="file://$PROJECT_DIR$/OOP 1/OOP 1.iml" filepath="$PROJECT_DIR$/OOP 1/OOP 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP 2/OOP 2.iml" filepath="$PROJECT_DIR$/OOP 2/OOP 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP 3/OOP 3.iml" filepath="$PROJECT_DIR$/OOP 3/OOP 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection 1/Reflection 1.iml" filepath="$PROJECT_DIR$/Reflection 1/Reflection 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection 2/Reflection 2.iml" filepath="$PROJECT_DIR$/Reflection 2/Reflection 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection 3/Reflection 3.iml" filepath="$PROJECT_DIR$/Reflection 3/Reflection 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bezdelia/Sin teilior/Sin teilior.iml" filepath="$PROJECT_DIR$/Bezdelia/Sin teilior/Sin teilior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singltone/Singltone.iml" filepath="$PROJECT_DIR$/Singltone/Singltone.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" filepath="$PROJECT_DIR$/Sortirovka 1/Sortirovka 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" filepath="$PROJECT_DIR$/Sortirovka 2/Sortirovka 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream 1/Stream 1.iml" filepath="$PROJECT_DIR$/Stream 1/Stream 1.iml" />
