@@ -4,6 +4,7 @@
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jackson-annotations-2.16.1.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jackson-core-2.16.1.jar!/" />
       <root url="jar://$APPLICATION_HOME_DIR$/lib/jackson-databind-2.16.1.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/lombok.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
